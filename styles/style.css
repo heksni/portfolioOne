@@ -4,6 +4,7 @@ nav {
 
     display: flex;
     flex-direction: row;
+    
 
 }
 .logo-border{
@@ -45,3 +46,32 @@ body{
     background-color: rgb(27, 26, 26);
     color:white;
 }
+.nav-center{
+    border-radius: 10px;
+    margin-left: 21%;
+    font-size: 26px;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    color: yellow;
+    
+}
+.nav-center .fa-house{
+    width: 100px;
+}
+.nav-center .fa-tv{
+    width: 100px;
+}
+.nav-center .fa-store{
+    width: 100px;
+}
+.nav-center .fa-users{
+    width: 100px;
+}
+.nav-center .fa-gamepad{
+    width: 100px;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+  }
